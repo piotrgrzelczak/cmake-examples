@@ -1,0 +1,4 @@
+Replace this file with the following repository (named "googletest"): https://github.com/google/googletest
+
+Realization example:
+$ git clone https://github.com/google/googletest
