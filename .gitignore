@@ -1,0 +1,4 @@
+**/build
+**/googletest
+**/benchmark
+**/boost
