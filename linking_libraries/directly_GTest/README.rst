@@ -3,5 +3,3 @@ cd build
 cmake ..
 make
 ./a.out
-
-WORKS

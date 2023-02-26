@@ -1,7 +1,5 @@
 **/build
 **/googletest
-**/benchmark
-**/boost
 
 # emacs leftovers
 *~
