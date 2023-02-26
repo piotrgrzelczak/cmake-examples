@@ -1,5 +1,9 @@
-mkdir build
-cd build
-cmake ..
-make
-./a.out
+Exemplary build instructions:
+
+.. code-block:: bash
+
+   $ mkdir build
+   $ cd build
+   $ cmake ..
+   $ make
+   $ ./a.out

@@ -1,4 +1,5 @@
-Build instructions::
+Exemplary build instructions:
+
 .. code-block:: bash
 
    $ mkdir build
