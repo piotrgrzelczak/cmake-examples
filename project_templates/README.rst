@@ -1,62 +1,37 @@
-Directory structure
+Directory structure:
 ::
 
     example-1
     ├── Application
     │   └── Sources
     │       └── Application
-    │           └── DummyClass.cpp
+    │           ├── DummyClass.cpp
     │           └── DummyClass.hpp
     ├── FetchContent
     │   └── googletest.cmake
     ├── Tests
-    │   └── main.cpp
+    │   ├── main.cpp
     │   └── UTDummyClass.cpp
     ├── CMakeLists.txt
     ├── main.cpp
     └── README.rst
 
-    example-1
-    ├── Application
-    │   └── Sources
-    │       └── Application
-    │           └── DummyClass.cpp
-    │           └── DummyClass.hpp
+    example-2
     ├── FetchContent
     │   └── googletest.cmake
-    ├── Tests
-    │   └── main.cpp
-    │   └── UTDummyClass.cpp
+    ├── Sources
+    │   ├── Main
+    │   |   ├── Sources
+    │   |   |   └── main.cpp
+    |   |   ├── CMakeLists.txt
+    |   |   └── sources.cmake
+    │   ├── ModuleX
+    │   |   ├── Sources
+    │   |   |   └── ModuleX
+    │   |   |       ├── DummyClass.cpp
+    │   |   |       └── DummyClass.hpp
+    |   |   ├── CMakeLists.txt
+    |   |   └── sources.cmake
+    |   └── CMakeLists.txt
     ├── CMakeLists.txt
-    ├── main.cpp
     └── README.rst
-
-        example-1
-        ├── Application
-        │   └── Sources
-        │       └── Application
-        │           └── DummyClass.cpp
-        │           └── DummyClass.hpp
-        ├── FetchContent
-        │   └── googletest.cmake
-        ├── Tests
-        │   └── main.cpp
-        │   └── UTDummyClass.cpp
-        ├── CMakeLists.txt
-        ├── main.cpp
-        └── README.rst
-
-        example-1
-        ├── Application
-        │   └── Sources
-        │       └── Application
-        │           └── DummyClass.cpp
-        │           └── DummyClass.hpp
-        ├── FetchContent
-        │   └── googletest.cmake
-        ├── Tests
-        │   └── main.cpp
-        │   └── UTDummyClass.cpp
-        ├── CMakeLists.txt
-        ├── main.cpp
-        └── README.rst
