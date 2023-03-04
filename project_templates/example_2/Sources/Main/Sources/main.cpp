@@ -1,4 +1,4 @@
-#include <Module1/DummyClass.hpp>
+#include <ModuleX/DummyClass.hpp>
 
 #include <iostream>
 

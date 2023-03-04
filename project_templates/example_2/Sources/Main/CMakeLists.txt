@@ -4,5 +4,5 @@ include(sources.cmake)
 
 target_link_libraries(Main
     PRIVATE
-        Module1
+        ModuleX
 )
